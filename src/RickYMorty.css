@@ -1,0 +1,17 @@
+.cards{
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card{
+    border: 1px solid black;
+    margin: 20px;
+}
+.card .card-image{
+    width: 100%;
+}
+
+.container{
+    background-color: cornflowerblue;
+}

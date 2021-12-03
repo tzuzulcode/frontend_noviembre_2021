@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Boton from './components/Boton';
+import Peticion from './components/Peticion';
+import RickYMorty from './RickYMorty';
+//Importar
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  //Escribir codigo de JavaScript
+  // return (
+  //   <div className="App">
+  //     {/* Esto es un comentario de JSX */}
+  //     {/* Esto es un comentario */}
+  //     {/* <h1>Hola mundo</h1>
+  //     <p>Hola, esto es un parrafo</p>
+  //     <button>Esto es un boton</button>
+  //     <Boton></Boton>
+  //     <Boton/>
+  //     <Peticion/> */}
+  //   </div>
+  // );
+
+
+  return <RickYMorty/>
 }
 
 export default App;
