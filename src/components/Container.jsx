@@ -6,6 +6,7 @@ export default function Container({nombre,next,prev,nextPage,prevPage}) {
 
     return (
         <div className="container">
+            
             {nombre}
             {next&&<button onClick={nextPage}>Next</button>}
             {prev&&<button onClick={prevPage}>Prev</button>}

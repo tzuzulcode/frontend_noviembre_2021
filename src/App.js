@@ -1,6 +1,7 @@
 import './App.css';
 import Boton from './components/Boton';
 import Peticion from './components/Peticion';
+import EjemploAplicacion from './EjemploAplicacion';
 import RickYMorty from './RickYMorty';
 //Importar
 
@@ -20,7 +21,7 @@ function App() {
   // );
 
 
-  return <RickYMorty/>
+  return <EjemploAplicacion/>
 }
 
 export default App;
