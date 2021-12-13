@@ -3,6 +3,7 @@ import Boton from './components/Boton';
 import Peticion from './components/Peticion';
 import EjemploAplicacion from './EjemploAplicacion';
 import RickYMorty from './RickYMorty';
+import {Routes,Route} from 'react-router-dom'
 //Importar
 
 function App() {
@@ -20,8 +21,13 @@ function App() {
   //   </div>
   // );
 
-
-  return <EjemploAplicacion/>
+  return <div>
+    <Routes>
+      <Route path="/" element={<EjemploAplicacion/>}/>
+      <Route path="/rickymorty" element={<RickYMorty/>}/>
+      
+    </Routes>
+  </div>
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import Card from './components/Card'
-import Container from './components/Container'
+import Container from './components/Container-Prueba'
 import './RickYMorty.css'
 export default function RickYMorty() {
 

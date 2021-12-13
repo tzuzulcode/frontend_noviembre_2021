@@ -1,15 +1,11 @@
 import React from 'react'
 
-export default function Container({nombre,next,prev,nextPage,prevPage}) {
-
-    //const nombre = props.nombre
-
+export default function Container({children,background}) {
     return (
-        <div className="container">
-            
-            {nombre}
-            {next&&<button onClick={nextPage}>Next</button>}
-            {prev&&<button onClick={prevPage}>Prev</button>}
+        <div className={`container-${background}`}>
+            <div className="container">
+            {children}
+            </div>
         </div>
     )
 }
