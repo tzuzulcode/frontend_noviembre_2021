@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
+import CarritoContext from "./context/CarritoContext"
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <CarritoContext>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </CarritoContext>
   </React.StrictMode>,
   document.getElementById('root')
 );
