@@ -6,6 +6,7 @@ export default function CarritoContext({children}) {
     const [carrito,setCarrito] = useState([])
 
     const agregarAlCarrito=(nuevo)=>{
+        if(carrito)
         setCarrito([...carrito,nuevo])
     }
     const retirarDelCarrito=(id)=>{

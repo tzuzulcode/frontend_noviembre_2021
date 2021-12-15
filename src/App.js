@@ -4,6 +4,7 @@ import Peticion from './components/Peticion';
 import EjemploAplicacion from './EjemploAplicacion';
 import RickYMorty from './RickYMorty';
 import {Routes,Route} from 'react-router-dom'
+import Carrito from './pages/Carrito';
 //Importar
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   return <div>
     <Routes>
       <Route path="/" element={<EjemploAplicacion/>}/>
+      <Route path="/carrito" element={<Carrito/>}/>
       <Route path="/rickymorty" element={<RickYMorty/>}/>
       
     </Routes>

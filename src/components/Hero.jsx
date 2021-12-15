@@ -3,7 +3,7 @@ import Container from './Container'
 
 export default function Hero() {
     return (
-            <section className="grid-2 hero">
+            <section className="grid lg:grid-cols-2 py-20">
                 <div className="hero-content">
                     <h1 className="hero-title">Steve wants reflections, so let's give him reflections. And I will hypnotize that just a little bit.</h1>
                     <p className="hero-description">Follow the lay of the land. It's most important. This is your world, whatever makes you happy you can put in it. Go crazy. You have to allow the paint to break to make it beautiful. And just raise cain. See how easy it is to create a little tree right in your world.</p>
